@@ -1,3 +1,12 @@
+# Dashboard
+### React Js ➕ ApexCharts ➕ Tailwind = Greatness in this Web App
+A Web App that provides the admin with a full dashboard with a different charts to provide insights.
+
+### Live Demo 👉 https://dashboard-task-iota.vercel.app/
+
+## Screenshot
+![screencapture-localhost-3000-2023-02-27-03_26_06](https://user-images.githubusercontent.com/61433385/221453268-53822bf8-3d17-4dfb-8349-93828ad31920.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
