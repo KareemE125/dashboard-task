@@ -11,7 +11,7 @@ export default function SideNavbar() {
 
   const { isSideOpen } = useContext(AppContext)
 
-  return <aside className={`min-w-[260px] h-screen shadow-md fixed top-0 bottom-0 bg-white overflow-x-hidden z-50 ${!isSideOpen && 'hidden'}`}>
+  return <aside className={`min-w-[260px]  shadow-md fixed top-0 bottom-0 bg-white overflow-x-hidden z-50 h-full ${!isSideOpen && 'hidden'}`}>
 
     <header className="w-full flex justify-center items-center p-4">
       <NavLink to='/'>
@@ -46,13 +46,13 @@ function TopSection() {
 }
 
 function MiddleSection() {
-  return <section className="w-full border-t-2 px-2">
+  return <section className="w-full border-t-2 px-2 pb-6">
     <Sidebar>
       <Sidebar.Items>
         <Sidebar.ItemGroup >
 
           <Sidebar.Collapse icon={icons.Dashboard} label="Dashboard" style={{ fontWeight: '500' }}>
-            <Sidebar.Item href="#"> Page Vistores </Sidebar.Item>
+            <Sidebar.Item href="#"> Page Visitors </Sidebar.Item>
             <Sidebar.Item href="#"> Post Performance </Sidebar.Item>
             <Sidebar.Item href="#"> Team Overall </Sidebar.Item>
           </Sidebar.Collapse>
