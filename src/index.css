@@ -35,6 +35,7 @@ body {
 /* DROPDOWN SELECT COMPONENT */
 #dropdown-menu div:nth-child(2){
   background-color: white !important;
+  z-index: 30;
 }
 
 #dropdown-menu div>button>span{
